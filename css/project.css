@@ -6031,9 +6031,8 @@ ul.service-tab-content-list li.active .round-btn {
 	line-height: 1;
 	font-weight: 600;
 	margin-bottom: 20px;
-	background: var(--bg-gradient);
-	color: var(--white);
-	padding: 10px 30px;
+background: linear-gradient(#090341, #1e1c1c);	color: var(--white);
+	padding: 5px 25px;
 	padding-top: 15px;
 	border-radius: 10px;
 }
