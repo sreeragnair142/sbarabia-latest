@@ -278,7 +278,7 @@ body{
 	content: '';
 	position: absolute;
 	top: 50%;
-	right: 24px;
+	right: 19px;
 	width: 18px;
 	height: 18px;
 	background: url('../images/arrow-white.svg') no-repeat;
@@ -1450,6 +1450,28 @@ header.main-header .header-sticky.active .container-fluid{
 
 .section-footer-text p a:hover{
 	color: var(--primary-color);
+}
+
+
+/* Default for large screens - 4 slides per row */
+.service-slide {
+    min-width: 25%;
+}
+
+@media (max-width: 1200px) {
+    .service-slide {
+        min-width: 50%; /* 2 per row for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .service-slide {
+        min-width: 100%; /* 1 per row for mobile */
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
 }
 
 /************************************/
@@ -7132,3 +7154,5 @@ header.main-header .header-sticky.active .container-fluid{
 .project-style-one-item .info .top h3:first-child a:hover::after {
     width: 100%;               /* Animated underline on hover */
 }
+
+
