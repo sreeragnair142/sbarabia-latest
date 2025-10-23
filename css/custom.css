@@ -7101,3 +7101,34 @@ header.main-header .header-sticky.active .container-fluid{
   font-size: 0.95rem;
   line-height: 1.5;
 }
+
+
+.project-style-one-item .info .top h3:first-child a {
+    display: inline-block;
+    color: #00bfff;           /* Bright accent color */
+    font-size: 22px;           /* Slightly bigger */
+    font-weight: 700;          /* Bold */
+    text-decoration: none;     /* Remove underline */
+    position: relative;        /* For decorative underline */
+    transition: color 0.3s ease;
+}
+
+.project-style-one-item .info .top h3:first-child a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background-color: #00bfff; /* Same as text color */
+    transition: width 0.3s ease;
+    border-radius: 2px;
+}
+
+.project-style-one-item .info .top h3:first-child a:hover {
+    color: #fff;               /* Change color on hover */
+}
+
+.project-style-one-item .info .top h3:first-child a:hover::after {
+    width: 100%;               /* Animated underline on hover */
+}
