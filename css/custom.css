@@ -3150,7 +3150,7 @@ header.main-header .header-sticky.active .container-fluid{
 
 .team-image img{
     width: 100%;
-    aspect-ratio: 1 / 1.424;
+    aspect-ratio: 1 / 1.10;
     object-fit: cover;
 	transition: all 0.4s ease-in-out; 
 }
@@ -7156,3 +7156,6 @@ header.main-header .header-sticky.active .container-fluid{
 }
 
 
+.page-team{
+	padding: 100px 0 70px;
+}
