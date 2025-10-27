@@ -12498,7 +12498,7 @@ footer .gradient-text {
 	animation-direction: alternate-reverse;
 }
 
-.color-style-two .robok-loader-item {
+/* .color-style-two .robok-loader-item {
 	background-color: var(--color-style-two);
 }
 
@@ -12517,7 +12517,7 @@ footer .gradient-text {
 .color-style-six .robok-loader-item {
 	background-color: var(--color-secondary);
 }
-
+ */
 .robok-loader .robok-loader-item:nth-child(1) {
 	margin-left: 0px;
 }
