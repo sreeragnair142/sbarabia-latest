@@ -593,7 +593,7 @@ Sidebar heading:  20px 'Sora', sans-serif
 
 .title {
 	font-weight: 500;
-	font-size: 55px;
+	font-size: 48px;
 	margin-bottom: 25px;
 }
 
@@ -6027,7 +6027,7 @@ ul.service-tab-content-list li.active .round-btn {
 .project-fun-fact .js-counter {
 	display: inline-flex;
 	align-items: center;
-	font-size: 80px;
+	font-size: 64px;
 	line-height: 1;
 	font-weight: 600;
 	margin-bottom: 20px;
@@ -6054,7 +6054,7 @@ background: linear-gradient(#090341, #1e1c1c);	color: var(--white);
 	gap: 30px;
 	align-items: center;
 	background: #000B18;
-	border: 2px solid var(--dark-secondary);
+	/* border: 2px solid var(--dark-secondary); */
 	border-radius: 30px;
 	padding: 50px;
 	z-index: 1;
