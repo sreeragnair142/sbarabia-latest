@@ -5724,7 +5724,7 @@ header.main-header .header-sticky.active .container-fluid{
     }
 
     .team-image img{
-        aspect-ratio: 1 / 1.2;
+        aspect-ratio: 0 / 1.2;
     }
 
     .team-body{
@@ -7266,7 +7266,7 @@ header.main-header .header-sticky.active .container-fluid{
 
         .service-content h3 {
             /* color: #00d4ff; */
-            font-size: 12px;
+            font-size: 11px;
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-bottom: 10px;
@@ -7333,3 +7333,5 @@ header.main-header .header-sticky.active .container-fluid{
                 margin-top: 20px;
             }
         }
+
+		
