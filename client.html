@@ -73,17 +73,17 @@
                                     </ul> -->
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="about.html">About Us</a>
-                                <!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li> -->
+                                    <!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li> -->
                                 <li class="nav-item submenu"><a class="nav-link" href="#">Services</a>
                                     <ul>
                                         <li class="nav-item"><a class="nav-link" href="Digital.html">Digital
                                                 Marketing</a></li>
-                                           <li>
+                                        <li>
                                             <a class="dropdown-item text-lowercase-fix" href="websites.html">
                                                 Websites that Convert
                                             </a>
                                         </li>
-                                      
+
                                         <li class="nav-item"><a class="nav-link" href="mobile.html">Mobile App
                                                 Development</a></li>
                                         <li class="nav-item"><a class="nav-link" href="content&media.html">Content &
@@ -97,8 +97,10 @@
                                                 Monitoring</a></li>
                                         <li class="nav-item"><a class="nav-link" href="businessconsulting.html">Business
                                                 Consulting</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="zatca.html">ZATCA E Invoicing</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="visitor.html">Visitor Management</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="zatca.html">ZATCA E Invoicing</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="visitor.html">Visitor
+                                                Management</a></li>
                                         <!-- <li class="nav-item"><a class="nav-link" href="#">E-Invoicing</a></li> -->
                                     </ul>
                                 </li>
@@ -287,7 +289,7 @@
                 </div>
 
 
-                 <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="team-item wow fadeInUp" data-wow-delay="1.4s">
                         <div class="team-image">
                             <a href="#" class="image-anime" data-cursor-text="View">
@@ -347,7 +349,15 @@
                                 </div>
                             </div>
                             <!-- Footer Contact Item End -->
-
+                            <div class="footer-contact-item">
+                                <div class="icon-box">
+                                    <img src="images/icon-phone-white.svg" alt="">
+                                </div>
+                                <div class="footer-contact-item-content">
+                                    <h3>Phone Number</h3>
+                                    <p><a href="tel:0565660380">0565660380</a></p>
+                                </div>
+                            </div>
                             <!-- Footer Contact Item Start -->
                             <div class="footer-contact-item">
                                 <div class="icon-box">
@@ -474,7 +484,27 @@
         </div>
     </footer>
     <!-- Footer End -->
+<a
+  href="https://wa.me/0565660380"
+  target="_blank"
+  class="whatsapp-float"
+  id="whatsappFloat"
+  aria-label="Chat on WhatsApp"
+>
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
 
+    <script>
+  const whatsappBtn = document.getElementById("whatsappFloat");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      whatsappBtn.classList.add("show");
+    } else {
+      whatsappBtn.classList.remove("show");
+    }
+  });
+</script>
     <!-- Jquery Library File -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->

@@ -3047,6 +3047,41 @@ header.main-header .header-sticky.active .container-fluid {
   line-height: normal;
   text-transform: none;
 }
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  background: #0f172a; /* dark background */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.whatsapp-float img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(1.2);
+}
+
+.whatsapp-float.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.whatsapp-float:hover {
+  background: #25D366;
+  transform: scale(1.05);
+}
 
 .page-header-box ol li.breadcrumb-item a {
   color: inherit;
